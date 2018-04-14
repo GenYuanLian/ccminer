@@ -1702,7 +1702,7 @@ static bool stratum_gen_work(struct stratum_ctx *sctx, struct work *work)
 		case ALGO_KECCAKC:
 		case ALGO_LBRY:
 		case ALGO_LYRA2v2:
-		case ALGO_LYRA2Z:
+//		case ALGO_LYRA2Z:
 		case ALGO_TIMETRAVEL:
 		case ALGO_BITCORE:
 			work_set_target(work, sctx->job.diff / (256.0 * opt_difficulty));
@@ -1714,6 +1714,9 @@ static bool stratum_gen_work(struct stratum_ctx *sctx, struct work *work)
 		case ALGO_EQUIHASH:
 			equi_work_set_target(work, sctx->job.diff / opt_difficulty);
 			break;
+		case ALGO_LYRA2Z:	
+		    work_set_target(work, sctx->job.diff / opt_difficulty);
+		    break;
 		default:
 			work_set_target(work, sctx->job.diff / opt_difficulty);
 	}
