@@ -34,3 +34,26 @@ Compile on Linux
 ----------------
 
 Please see [INSTALL](https://github.com/tpruvot/ccminer/blob/linux/INSTALL) file or [project Wiki](https://github.com/tpruvot/ccminer/wiki/Compatibility)
+
+Documentation
+-------------------------
+For more information, [Please visit here.](http://genyuanlian-docs.readthedocs.io "genyuanlian-docs")
+
+Contact Developers
+-------------------------
+
+Developers are available at:
+
+| Label Name              | Description                                                                                                                                                                                                                                                               |
+| :---------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Gitter                  | [![Join the chat at https://gitter.im/genyuanlian-SourceBlockchain/Lobby](https://badges.gitter.im/genyuanlian-SourceBlockchain/Lobby.svg)](https://gitter.im/genyuanlian-SourceBlockchain/ccminer?utm_source=share-link&utm_medium=link&utm_campaign=share-link) |
+
+Issues & PRs management
+-------------------------
+[![Waffle.io - Columns and their card count](https://badge.waffle.io/GenYuanLian/ccminer.svg?columns=all)](https://waffle.io/GenYuanLian/ccminer)             
+
+[![Throughput Graph](https://graphs.waffle.io/GenYuanLian/ccminer/throughput.svg)](https://waffle.io/GenYuanLian/ccminer/metrics/throughput)
+
+LICENSE
+-------------------------
+[![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
